@@ -13,11 +13,11 @@
         document.addEventListener( 'pause', onPause.bind( this ), false );
         document.addEventListener( 'resume', onResume.bind( this ), false );
 
-        document.getElementById("PhotoB").onclick = function () {
+        document.getElementById("PhotoB").onclick(function () {
             alert("Plot successful");
 
 
-        };
+        });
 
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
         var parentElement = document.getElementById('deviceready');
