@@ -9,6 +9,7 @@
 
     function onDeviceReady() {
         // Handle the Cordova pause and resume events
+        alert("Testing message successful");
         document.addEventListener( 'pause', onPause.bind( this ), false );
         document.addEventListener( 'resume', onResume.bind( this ), false );
 
