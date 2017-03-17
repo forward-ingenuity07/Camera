@@ -12,7 +12,7 @@
         document.addEventListener( 'pause', onPause.bind( this ), false );
         document.addEventListener( 'resume', onResume.bind( this ), false );
 
-        document.getElementById("PhotoB").onclick() = function () {
+        document.getElementById("PhotoB").onclick = function () {
             alert("Plot successful");
 
 
